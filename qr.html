@@ -1,0 +1,40 @@
+<input type="text" id="linkInput" placeholder="Enter link">
+<button onclick="generateQR()">Generate QR</button>
+<button onclick="downloadQR()">Download PNG</button>
+
+<br><br>
+<div id="qrcode"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<script>
+let qr;
+
+function generateQR() {
+  document.getElementById("qrcode").innerHTML = "";
+
+  let link = document.getElementById("linkInput").value;
+
+  qr = new QRCode(document.getElementById("qrcode"), {
+    text: link,
+    width: 200,
+    height: 200
+  });
+}
+
+function downloadQR() {
+  let canvas = document.querySelector("#qrcode canvas");
+
+  if (!canvas) {
+    alert("Generate QR first!");
+    return;
+  }
+
+  let pngUrl = canvas.toDataURL("image/png");
+
+  let downloadLink = document.createElement("a");
+  downloadLink.href = pngUrl;
+  downloadLink.download = "qr-code.png";
+  downloadLink.click();
+}
+</script>
