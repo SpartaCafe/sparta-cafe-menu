@@ -747,6 +747,24 @@
         "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
       },
       {
+    "name": "Lemon Chicken - تشيكن ليمون",
+    "price": "265 EGP",
+    "category": "main-dish",
+    "ingredients": "Grilled chicken with lemon sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص الليمون تقدم مع ارز بسمتي و سلطة كول سلو"
+  },
+  {
+    "name": "Mushroom Chicken - تشيكن مشروم",
+    "price": "270 EGP",
+    "category": "main-dish",
+    "ingredients": "Grilled chicken with creamy mushroom sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص المشروم الكريمي تقدم مع ارز بسمتي و سلطة كول سلو"
+  },
+  {
+    "name": "Grilled Chicken - تشيكن جريل",
+    "price": "275 EGP",
+    "category": "main-dish",
+    "ingredients": "Seasoned grilled chicken served with basmati rice and coleslaw salad | فراخ مشوية متبلة تقدم مع ارز بسمتي و سلطة كول سلو"
+  },
+      {
         "name": "Mexicano Pasta - مكرونة ميكسيكانو",
         "price": "95 EGP",
         "category": "pasta",
@@ -1223,6 +1241,12 @@
         "category": "salad",
         "ingredients": ""
       },
+      {
+    "name": "Taco Salad - سلطة تاكو",
+    "price": "95 EGP",
+    "category": "salad",
+    "ingredients": ""
+     },
       {
         "name": "Coleslaw - سلطة كول سلو",
         "price": "65 EGP",
