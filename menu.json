@@ -1128,149 +1128,107 @@
         "ingredients": "Pane - Crispy - Strips - Shish Tawook - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | بانيه - كريسبي - استربس - شيش - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
       },
       {
-    "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
-    "sizes": {
-      "small": "60 EGP",
-      "large": "90 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Kofta Sandwich - ساندوتش كفتة",
-    "sizes": {
-      "small": "70 EGP",
-      "large": "110 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Crispy Sandwich - ساندوتش كريسبي",
-    "sizes": {
-      "small": "50 EGP",
-      "large": "75 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Strips Sandwich - ساندوتش استربس",
-    "sizes": {
-      "small": "75 EGP",
-      "large": "105 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Cordon Bleu Sandwich - ساندوتش كوردن بلو",
-    "sizes": {
-      "small": "65 EGP",
-      "large": "95 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Fajita Sandwich - ساندوتش فاهيتا",
-    "sizes": {
-      "small": "75 EGP",
-      "large": "105 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Shish Tawook Sandwich - ساندوتش شيش طاووق",
-    "sizes": {
-      "small": "75 EGP",
-      "large": "105 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Pane Sandwich - ساندوتش بانيه",
-    "sizes": {
-      "small": "75 EGP",
-      "large": "105 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
-    "sizes": {
-      "small": "75 EGP",
-      "large": "105 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
-    "sizes": {
-      "small": "85 EGP",
-      "large": null
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Chicken Burger Sandwich - ساندوتش برجر فراخ",
-    "sizes": {
-      "small": "75 EGP",
-      "large": null
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Beef Burger Combo - ساندوتش برجر لحم كومبو",
-    "sizes": {
-      "small": "135 EGP",
-      "large": null
-    },
-    "category": "sandwiches",
-    "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
-  },
-  {
-    "name": "Chicken Burger Combo - ساندوتش برجر فراخ كومبو",
-    "sizes": {
-      "small": "120 EGP",
-      "large": null
-    },
-    "category": "sandwiches",
-    "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
-  },
-  {
-    "name": "French Fries Sandwich - ساندوتش بطاطس",
-    "sizes": {
-      "small": "30 EGP",
-      "large": "50 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Mushroom Sandwich - ساندوتش مشروم",
-    "sizes": {
-      "small": "50 EGP",
-      "large": "75 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
-    "name": "Shrimp Sandwich - ساندوتش جمبري",
-    "sizes": {
-      "small": "130 EGP",
-      "large": "170 EGP"
-    },
-    "category": "sandwiches",
-    "ingredients": ""
-  },
+        "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
+        "price": "50 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Kofta Sandwich - ساندوتش كفتة",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Crispy Sandwich - ساندوتش كريسبي",
+        "price": "45 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Strips Sandwich - ساندوتش استربس",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Cordon Bleu Sandwich - ساندوتش كوردن بلو",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Fajita Sandwich - ساندوتش فاهيتا",
+        "price": "70 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Shish Tawook Sandwich - ساندوتش شيش طاووق",
+        "price": "70 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Pane Sandwich - ساندوتش بانيه",
+        "price": "65 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
+        "price": "55 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
+        "price": "85 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Chicken Burger Sandwich - ساندوتش برجر فراخ",
+        "price": "75 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Beef Burger Combo - ساندوتش برجر لحم كومبو",
+        "price": "135 EGP",
+        "category": "sandwiches",
+        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+      },
+      {
+        "name": "Chicken Burger Combo - ساندوتش برجر فراخ كومبو",
+        "price": "120 EGP",
+        "category": "sandwiches",
+        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+      },
+      {
+        "name": "French Fries Sandwich - ساندوتش بطاطس",
+        "price": "30 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Mushroom Sandwich - ساندوتش مشروم",
+        "price": "45 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Shrimp Sandwich - ساندوتش جمبري",
+        "price": "130 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
+      {
+        "name": "Roumi Cheese Sandwich - ساندوتش جبن رومي",
+        "price": "40 EGP",
+        "category": "sandwiches",
+        "ingredients": ""
+      },
       {
         "name": "Green Salad - سلطة خضراء",
         "price": "45 EGP",
