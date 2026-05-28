@@ -772,25 +772,25 @@
       },
       {
         "name": "Arabiata Pasta - مكرونة أربياتا",
-        "price": "75 EGP",
+        "price": "85 EGP",
         "category": "pasta",
         "ingredients": "Red Sauce - Mushroom - Vegetables | صوص أحمر - مشروم - خضار"
       },
       {
         "name": "Alfredo Pasta - مكرونة ألفريدو",
-        "price": "130 EGP",
+        "price": "155 EGP",
         "category": "pasta",
         "ingredients": "White Sauce - Mushroom - Chicken | صوص أبيض - مشروم - قطع فراخ"
       },
       {
         "name": "Negresco Pasta - مكرونة نجرسكو",
-        "price": "140 EGP",
+        "price": "165 EGP",
         "category": "pasta",
         "ingredients": "White Sauce - Chicken - Mozzarella | صوص أبيض - قطع فراخ - موتزاريلا"
       },
       {
         "name": "Bolognese Pasta - مكرونة بولونيز",
-        "price": "125 EGP",
+        "price": "145 EGP",
         "category": "pasta",
         "ingredients": "Red Sauce - Minced Beef | صوص أحمر - لحم مفروم"
       },
@@ -806,192 +806,197 @@
         "category": "pasta",
         "ingredients": "Soy Sauce - Noodles - Vegetables | صوص صويا - نودلز - خضار"
       },
-  
+      {
+        "name": "Chicken Noodles - تشيكن نودلز",
+        "price": "145 EGP",
+        "category": "pasta"
+      },
+
       {
         "name": "Margherita Pizza - بيتزا مارجريتا",
-        "price": "105 EGP",
+        "price": "110 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Oregano | صوص بيتزا - موتزاريلا - ريحان"
       },
       {
         "name": "Vegetable Pizza - بيتزا خضار",
-        "price": "110 EGP",
+        "price": "115 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Pepper - Olives - Oregano | صوص بيتزا - موتزاريلا - فلفل - زيتون - ريحان"
       },
       {
         "name": "Mushroom Pizza - بيتزا مشروم",
-        "price": "125 EGP",
+        "price": "130 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Vegetables - Mushroom - Oregano | صوص بيتزا - موتزاريلا - خضار - مشروم - ريحان"
       },
       {
         "name": "Bolognese Pizza - بيتزا بولونيز",
-        "price": "145 EGP",
+        "price": "150 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Minced Meat - Oregano | صوص بيتزا - موتزاريلا - لحم مفروم - ريحان"
       },
       {
         "name": "Crispy Chicken Pizza - بيتزا كريسبي",
-        "price": "125 EGP",
+        "price": "130 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Crispy Chicken - Oregano | صوص بيتزا - موتزاريلا - فراخ كريسبي - ريحان"
       },
       {
         "name": "Cheese Mix Pizza - بيتزا ميكس جبن",
-        "price": "125 EGP",
+        "price": "130 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Mozzarella - Cheddar - Roumy - Oregano | صوص بيتزا - موتزاريلا - شيدر - رومي - ريحان"
       },
       {
         "name": "Chicken Ranch Pizza - بيتزا فراخ رانش",
-        "price": "165 EGP",
+        "price": "170 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Chicken - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص رانش - ريحان"
       },
       {
         "name": "Chicken BBQ Pizza - بيتزا فراخ باربكيو",
-        "price": "165 EGP",
+        "price": "170 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Chicken - Mozzarella - BBQ Sauce - Oregano | صوص بيتزا - قطع فراخ - موتزاريلا - صوص باربكيو - ريحان"
       },
       {
         "name": "Chicken Mix Pizza - بيتزا ميكس فراخ",
-        "price": "145 EGP",
+        "price": "150 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Crispy Chicken - Chicken Strips - Cordon Bleu - Mozzarella - Oregano | صوص بيتزا - فراخ كريسبي - استربس - كوردن بلو - موتزاريلا - ريحان"
       },
       {
         "name": "Smoked Meat Mix Pizza - بيتزا ميكس لحوم مدخنة",
-        "price": "140 EGP",
+        "price": "145 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Salami - Smoked Turkey - Mozzarella - Oregano | صوص بيتزا - سلامي - تركي مدخن - موتزاريلا - ريحان"
       },
       {
         "name": "Hot Dog Pizza - بيتزا هوت دوج",
-        "price": "135 EGP",
+        "price": "140 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Hot Dog - Mozzarella - Oregano | صوص بيتزا - هوت دوج - موتزاريلا - ريحان"
       },
       {
         "name": "Sausage Pizza - بيتزا سجق",
-        "price": "145 EGP",
+        "price": "150 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Sausage - Mozzarella - Oregano | صوص بيتزا - سجق - موتزاريلا - ريحان"
       },
       {
         "name": "Pastrami Pizza - بيتزا بسطرمة",
-        "price": "145 EGP",
+        "price": "150 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Pastrami - Mozzarella - Oregano | صوص بيتزا - بسطرمة - موتزاريلا - ريحان"
       },
       {
         "name": "Super Supreme Pizza - بيتزا سوبر سوبريم",
-        "price": "165 EGP",
+        "price": "170 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Minced Meat - Salami - Hot Dog - Mozzarella - Oregano | صوص بيتزا - لحم مفروم - سلامي - هوت دوج - موتزاريلا - ريحان"
       },
       {
         "name": "Salami Pizza - بيتزا سلامي",
-        "price": "135 EGP",
+        "price": "140 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Salami - Mozzarella - Oregano | صوص بيتزا - سلامي - موتزاريلا - ريحان"
       },
       {
         "name": "Pepperoni Pizza - بيتزا بيبروني",
-        "price": "130 EGP",
+        "price": "135 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Pepperoni - Mozzarella - Oregano | صوص بيتزا - بيبروني - موتزاريلا - ريحان"
       },
       {
         "name": "Tuna Pizza - بيتزا تونة",
-        "price": "140 EGP",
+        "price": "145 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Tuna - Mozzarella - Oregano | صوص بيتزا - تونة - موتزاريلا - ريحان"
       },
       {
         "name": "Shrimp Pizza - بيتزا جمبري",
-        "price": "210 EGP",
+        "price": "215 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Shrimp - Mozzarella - Oregano | صوص بيتزا - جمبري - موتزاريلا - ريحان"
       },
       {
         "name": "Sea Ranch Pizza - بيتزا سي رانش",
-        "price": "235 EGP",
+        "price": "240 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Shrimp - Crab Sticks - Mozzarella - Ranch Sauce - Oregano | صوص بيتزا - جمبري - اصابع كابوريا - موتزاريلا - رانش - ريحان"
       },
   
       {
         "name": "Sausage Pan - طاسة سجق",
-        "price": "130 EGP",
+        "price": "135 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Cordon Bleu Pan - طاسة كوردن بلو",
-        "price": "130 EGP",
+        "price": "135 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Crispy Pan - طاسة كريسبي",
-        "price": "120 EGP",
+        "price": "125 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Strips Pan - طاسة استربس",
-        "price": "130 EGP",
+        "price": "135 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Shrimp Pan - طاسة جمبري",
-        "price": "200 EGP",
+        "price": "205 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Smoked Meat Pan - طاسة لحم مدخن",
-        "price": "125 EGP",
+        "price": "130 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Hot Dog Pan - طاسة هوت دوج",
-        "price": "125 EGP",
+        "price": "130 EGP",
         "category": "pans",
         "ingredients": ""
       },
       {
         "name": "Mix Chicken Pan - طاسة ميكس فراخ",
-        "price": "140 EGP",
+        "price": "145 EGP",
         "category": "pans",
         "ingredients": ""
       },
   
       {
         "name": "Fries Crepe - كريب بطاطس",
-        "price": "75 EGP",
+        "price": "80 EGP",
         "category": "crepe",
         "ingredients": ""
       },
       {
         "name": "Mexicano Crepe - كريب مكسيكانو",
-        "price": "90 EGP",
+        "price": "95 EGP",
         "category": "crepe",
         "ingredients": ""
       },
       {
         "name": "Hot Dog Crepe - كريب هوت دوج",
-        "price": "85 EGP",
+        "price": "90 EGP",
         "category": "crepe",
         "ingredients": ""
       },
       {
         "name": "Cheese Mix Crepe - كريب ميكس جبن",
-        "price": "85 EGP",
+        "price": "90 EGP",
         "category": "crepe",
         "ingredients": ""
       },
@@ -1003,7 +1008,7 @@
       },
       {
         "name": "Kofta Crepe - كريب كفتة حاتي",
-        "price": "110 EGP",
+        "price": "125 EGP",
         "category": "crepe",
         "ingredients": ""
       },
@@ -1039,7 +1044,7 @@
       },
       {
         "name": "Mix Chicken Crepe - كريب ميكس فراخ",
-        "price": "110 EGP",
+        "price": "115 EGP",
         "category": "crepe",
         "ingredients": ""
       },
@@ -1128,95 +1133,110 @@
         "ingredients": "Pane - Crispy - Strips - Shish Tawook - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | بانيه - كريسبي - استربس - شيش - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
       },
       {
-        "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
-        "price": "50 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Kofta Sandwich - ساندوتش كفتة",
-        "price": "65 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Crispy Sandwich - ساندوتش كريسبي",
-        "price": "45 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Strips Sandwich - ساندوتش استربس",
-        "price": "65 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Cordon Bleu Sandwich - ساندوتش كوردن بلو",
-        "price": "65 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Fajita Sandwich - ساندوتش فاهيتا",
-        "price": "70 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Shish Tawook Sandwich - ساندوتش شيش طاووق",
-        "price": "70 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Pane Sandwich - ساندوتش بانيه",
-        "price": "65 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
-        "price": "55 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
-        "price": "85 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Chicken Burger Sandwich - ساندوتش برجر فراخ",
-        "price": "75 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Beef Burger Combo - ساندوتش برجر لحم كومبو",
-        "price": "135 EGP",
-        "category": "sandwiches",
-        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
-      },
-      {
-        "name": "Chicken Burger Combo - ساندوتش برجر فراخ كومبو",
-        "price": "120 EGP",
-        "category": "sandwiches",
-        "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
-      },
-      {
-        "name": "French Fries Sandwich - ساندوتش بطاطس",
-        "price": "30 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Mushroom Sandwich - ساندوتش مشروم",
-        "price": "45 EGP",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
+    "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
+    "small_price": "60 EGP",
+    "large_price": "90 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Kofta Sandwich - ساندوتش كفتة",
+    "small_price": "70 EGP",
+    "large_price": "110 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Crispy Sandwich - ساندوتش كريسبي",
+    "small_price": "50 EGP",
+    "large_price": "75 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Strips Sandwich - ساندوتش استربس",
+    "small_price": "75 EGP",
+    "large_price": "105 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Cordon Bleu Sandwich - ساندوتش كوردن بلو",
+    "small_price": "65 EGP",
+    "large_price": "95 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Fajita Sandwich - ساندوتش فاهيتا",
+    "small_price": "75 EGP",
+    "large_price": "105 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Shish Tawook Sandwich - ساندوتش شيش طاووق",
+    "small_price": "75 EGP",
+    "large_price": "105 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Pane Sandwich - ساندوتش بانيه",
+    "small_price": "75 EGP",
+    "large_price": "105 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
+    "small_price": "75 EGP",
+    "large_price": "105 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
+    "small_price": "85 EGP",
+    "large_price": "-",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Chicken Burger Sandwich - ساندوتش برجر فراخ",
+    "small_price": "120 EGP",
+    "large_price": "-",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Beef Burger Combo - ساندوتش برجر لحم كومبو",
+    "small_price": "135 EGP",
+    "large_price": "-",
+    "category": "sandwiches",
+    "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+  },
+  {
+    "name": "Chicken Burger Combo - ساندوتش برجر فراخ كومبو",
+    "small_price": "120 EGP",
+    "large_price": "-",
+    "category": "sandwiches",
+    "ingredients": "Served With Fries & Cola | يقدم مع بطاطس و كولا"
+  },
+  {
+    "name": "French Fries Sandwich - ساندوتش بطاطس",
+    "small_price": "35 EGP",
+    "large_price": "50 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
+  {
+    "name": "Mushroom Sandwich - ساندوتش مشروم",
+    "small_price": "50 EGP",
+    "large_price": "75 EGP",
+    "category": "sandwiches",
+    "ingredients": ""
+  },
       {
         "name": "Shrimp Sandwich - ساندوتش جمبري",
         "price": "130 EGP",
@@ -1231,13 +1251,13 @@
       },
       {
         "name": "Green Salad - سلطة خضراء",
-        "price": "45 EGP",
+        "price": "50 EGP",
         "category": "salad",
         "ingredients": ""
       },
       {
         "name": "Tuna Salad - سلطة تونة",
-        "price": "75 EGP",
+        "price": "80 EGP",
         "category": "salad",
         "ingredients": ""
       },
@@ -1255,25 +1275,25 @@
       },
       {
         "name": "Greek Salad - سلطة يوناني",
-        "price": "70 EGP",
+        "price": "75 EGP",
         "category": "salad", 
         "ingredients": ""
       },
       {
         "name": "Caesar Salad - سلطة سيزر",
-        "price": "85 EGP",
+        "price": "95 EGP",
         "category": "salad",
         "ingredients": ""
       },
       {
         "name": "Small Fries Plate - طبق بطاطس صغير",
-        "price": "25 EGP",
+        "price": "30 EGP",
         "category": "appetizers",
         "ingredients": ""
       },
       {
         "name": "Large Fries Plate - طبق بطاطس كبير",
-        "price": "35 EGP",
+        "price": "40 EGP",
         "category": "appetizers",
         "ingredients": ""
       },
