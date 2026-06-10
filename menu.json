@@ -16,7 +16,6 @@
       { "id": "pizza", "name": "Pizza - بيتزا" } ,
       { "id": "pans", "name": "Pans - طاسات" } ,
       { "id": "crepe", "name": "Crepe - كريب" } ,
-      { "id": "crepe-mix", "name": "Crepe-mix - كريب ميكس" } ,
       { "id": "sandwiches", "name": "Sandwiches - ساندوتشات" } ,
       { "id": "salad", "name": "Salad - سلطات" } ,
       { "id": "appetizers", "name": "Appetizers - المقبلات" } ,
@@ -95,12 +94,6 @@
       {
         "name": "Nutella Hot Chocolate - هوت شوكليت نوتيلا",
         "price": "70 EGP",
-        "category": "coffee",
-        "ingredients": ""
-      },
-      {
-        "name": "Marshmallow Hot Chocolate - هوت شوكليت مارشميلو",
-        "price": "90 EGP",
         "category": "coffee",
         "ingredients": ""
       },
@@ -364,12 +357,6 @@
         "ingredients": ""
       },
       {
-        "name": "Banana Smoothie - سموزي موز",
-        "price": "65 EGP",
-        "category": "smoothie",
-        "ingredients": ""
-      },
-      {
         "name": "Kiwi Smoothie - سموزي كيوي",
         "price": "65 EGP",
         "category": "smoothie",
@@ -381,7 +368,6 @@
         "category": "smoothie",
         "ingredients": ""
       },
-  
       {
         "name": "Mango & Strawberry - مانجو فراولة",
         "price": "80 EGP",
@@ -409,12 +395,6 @@
       },
       {
         "name": "Schweppes - شويبس",
-        "price": "40 EGP",
-        "category": "soft-drinks",
-        "ingredients": ""
-      },
-      {
-        "name": "Fayrouz - فيروز",
         "price": "40 EGP",
         "category": "soft-drinks",
         "ingredients": ""
@@ -753,7 +733,7 @@
     "ingredients": "Grilled chicken with lemon sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص الليمون تقدم مع ارز بسمتي و سلطة كول سلو"
   },
   {
-    "name": "Mushroom Chicken - تشيكن مشروم",
+    "name": "Chicken piccata - تشيكن بيكاتا",
     "price": "270 EGP",
     "category": "main-dish",
     "ingredients": "Grilled chicken with creamy mushroom sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص المشروم الكريمي تقدم مع ارز بسمتي و سلطة كول سلو"
@@ -885,12 +865,6 @@
         "ingredients": "Pizza Sauce - Sausage - Mozzarella - Oregano | صوص بيتزا - سجق - موتزاريلا - ريحان"
       },
       {
-        "name": "Pastrami Pizza - بيتزا بسطرمة",
-        "price": "150 EGP",
-        "category": "pizza",
-        "ingredients": "Pizza Sauce - Pastrami - Mozzarella - Oregano | صوص بيتزا - بسطرمة - موتزاريلا - ريحان"
-      },
-      {
         "name": "Super Supreme Pizza - بيتزا سوبر سوبريم",
         "price": "170 EGP",
         "category": "pizza",
@@ -901,12 +875,6 @@
         "price": "140 EGP",
         "category": "pizza",
         "ingredients": "Pizza Sauce - Salami - Mozzarella - Oregano | صوص بيتزا - سلامي - موتزاريلا - ريحان"
-      },
-      {
-        "name": "Pepperoni Pizza - بيتزا بيبروني",
-        "price": "135 EGP",
-        "category": "pizza",
-        "ingredients": "Pizza Sauce - Pepperoni - Mozzarella - Oregano | صوص بيتزا - بيبروني - موتزاريلا - ريحان"
       },
       {
         "name": "Tuna Pizza - بيتزا تونة",
@@ -958,12 +926,6 @@
         "ingredients": ""
       },
       {
-        "name": "Smoked Meat Pan - طاسة لحم مدخن",
-        "price": "130 EGP",
-        "category": "pans",
-        "ingredients": ""
-      },
-      {
         "name": "Hot Dog Pan - طاسة هوت دوج",
         "price": "130 EGP",
         "category": "pans",
@@ -979,12 +941,6 @@
       {
         "name": "Fries Crepe - كريب بطاطس",
         "price": "80 EGP",
-        "category": "crepe",
-        "ingredients": ""
-      },
-      {
-        "name": "Mexicano Crepe - كريب مكسيكانو",
-        "price": "95 EGP",
         "category": "crepe",
         "ingredients": ""
       },
@@ -1049,18 +1005,6 @@
         "ingredients": ""
       },
       {
-        "name": "Beef Burger Crepe - كريب برجر لحم",
-        "price": "130 EGP",
-        "category": "crepe",
-        "ingredients": ""
-      },
-      {
-        "name": "Chicken Burger Crepe - كريب برجر فراخ",
-        "price": "105 EGP",
-        "category": "crepe",
-        "ingredients": ""
-      },
-      {
         "name": "Mushroom Crepe - كريب مشروم",
         "price": "90 EGP",
         "category": "crepe",
@@ -1069,68 +1013,8 @@
       {
         "name": "Fries Mushroom Mix Crepe - كريب ميكس بطاطس مشروم",
         "price": "115 EGP",
-        "category": "crepe-mix",
+        "category": "crepe",
         "ingredients": ""
-      },
-      {
-        "name": "Pane Fries Crepe - كريب بطاطس بانيه",
-        "price": "135 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
-      },
-      {
-        "name": "Strips Fries Crepe - كريب بطاطس استربس",
-        "price": "135 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
-      },
-      {
-        "name": "Cordon Bleu Fries Crepe - كريب بطاطس كوردن بلو",
-        "price": "135 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Vegetables - Ketchup - Mayonnaise - Mozzarella | خضار - كاتشب - مايونيز - موتزاريلا"
-      },
-      {
-        "name": "El-Wa7sh Crepe - كريب الوحش",
-        "price": "175 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Pane - Crispy - Hotdog - Barbecue Sauce - Vegetables - Mozzarella | بانيه - كريسبي - هوت دوج - صوص باربكيو - خضار - موتزاريلا"
-      },
-      {
-        "name": "Shatshoot Crepe - كريب شطشوط",
-        "price": "185 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Strips - Crispy - Jalapeno Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - كريسبي - هالبينيو صوص - خضار - موتزاريلا - كاتشب - مايونيز"
-      },
-      {
-        "name": "Basha Masr Crepe - كريب باشا مصر",
-        "price": "175 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Strips - Hotdog - Crispy - Cheddar Sauce - Vegetables - Mozzarella - Ketchup - Mayonnaise | استربس - هوت دوج - كريسبي - صوص شيدر - خضار - موتزاريلا - كاتشب - مايونيز"
-      },
-      {
-        "name": "El-King Crepe - كريب الكينج",
-        "price": "175 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Hotdog - Strips - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | هوت دوج - استربس - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
-      },
-      {
-        "name": "El-Shbrawya Crepe - كريب الشبراوية",
-        "price": "175 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Shish Taouk - Cordon Bleu - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | شيش طاووك - كوردن بلو - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا"
-      },
-      {
-        "name": "Harley Crepe - كريب هارلي",
-        "price": "185 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Zinger - Crispy - Cordon Bleu - Smoked Turkey - Cheddar Sauce - Vegetables - Ketchup - Mayonnaise - Mozzarella | زنجر - كريسبي - كوردن بلو - تركي مدخن - صوص شيدر - خضار - كاتشب - مايونيز - موتزاريلا"
-      },
-      {
-        "name": "Mix El-Daraweesh Crepe - كريب مكس الدراويش",
-        "price": "245 EGP",
-        "category": "crepe-mix",
-        "ingredients": "Pane - Crispy - Strips - Shish Tawook - Fries - Cheddar Sauce - Tasty Sauce - Vegetables - Mozzarella | بانيه - كريسبي - استربس - شيش - بطاطس - صوص شيدر - صوص تيستي - خضار - موتزاريلا"
       },
       {
     "name": "Hot Dog Sandwich - ساندوتش هوت دوج",
@@ -1189,13 +1073,6 @@
     "ingredients": ""
   },
   {
-    "name": "Mexicano Sandwich - ساندوتش ميكسيكانو",
-    "small_price": "75",
-    "large_price": "105",
-    "category": "sandwiches",
-    "ingredients": ""
-  },
-  {
     "name": "Beef Burger Sandwich - ساندوتش برجر لحم",
     "small_price": "85",
     "large_price": "-",
@@ -1240,12 +1117,6 @@
       {
         "name": "Shrimp Sandwich - ساندوتش جمبري",
         "price": "130",
-        "category": "sandwiches",
-        "ingredients": ""
-      },
-      {
-        "name": "Roumi Cheese Sandwich - ساندوتش جبن رومي",
-        "price": "40",
         "category": "sandwiches",
         "ingredients": ""
       },
@@ -1473,7 +1344,7 @@
       },
       {
         "name": "Nutella Crepe - كريب نوتيلا",
-        "price": "60 EGP",
+        "price": "65 EGP",
         "category": "desserts",
         "ingredients": ""
       },
