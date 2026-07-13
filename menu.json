@@ -682,67 +682,67 @@
         "name": "Mix Grill - ميكس جريل",
         "price": "295 EGP",
         "category": "main-dish",
-        "ingredients": "Steak, Kofta, sausage, Shish Served with basmati rice, Fries, and green salad | ستيك, كفتة, سجق, شيش يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+        "ingredients": "Steak, Kofta, sausage, Shish Served with basmati rice, Fries | ستيك, كفتة, سجق, شيش يقدم مع ارز بسمتي و بطاطس  "
       },
       {
         "name": "Beef Stroganoff - بيف استراجانوف",
         "price": "275 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Beef Mushroom - بيف مشروم",
         "price": "265 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and green salad | يقدم مع ارز بسمتي و بطاطس و سلطة خضراء"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Cordon Bleu - كوردن بلو",
         "price": "255 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Fajita - فاهيتا",
         "price": "250 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Shish Tawook - شيش طاووق",
         "price": "250 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Mix Chicken - ميكس فراخ",
         "price": "260 EGP",
         "category": "main-dish",
-        "ingredients": "Cordon Bleu, Pane, Strips Served with basmati rice, Fries, and coleslaw salad | كوردن بلو, بانيه, استربس يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+        "ingredients": "Cordon Bleu, Pane, Strips Served with basmati rice, Fries | كوردن بلو, بانيه, استربس يقدم مع ارز بسمتي و بطاطس "
       },
       {
         "name": "Pane - بانيه",
         "price": "235 EGP",
         "category": "main-dish",
-        "ingredients": "Served with basmati rice, Fries, and coleslaw salad | يقدم مع ارز بسمتي و بطاطس و سلطة كلو سلو"
+        "ingredients": "Served with basmati rice, Fries | يقدم مع ارز بسمتي و بطاطس "
       },
       {
     "name": "Lemon Chicken - تشيكن ليمون",
     "price": "265 EGP",
     "category": "main-dish",
-    "ingredients": "Grilled chicken with lemon sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص الليمون تقدم مع ارز بسمتي و سلطة كول سلو"
+    "ingredients": "Grilled chicken with lemon sauce served with basmati rice | فراخ مشوية بصوص الليمون تقدم مع ارز بسمتي "
   },
   {
     "name": "Chicken piccata - تشيكن بيكاتا",
     "price": "270 EGP",
     "category": "main-dish",
-    "ingredients": "Grilled chicken with creamy mushroom sauce served with basmati rice and coleslaw salad | فراخ مشوية بصوص المشروم الكريمي تقدم مع ارز بسمتي و سلطة كول سلو"
+    "ingredients": "Grilled chicken with creamy mushroom sauce served with basmati rice | فراخ مشوية بصوص المشروم الكريمي تقدم مع ارز بسمتي "
   },
   {
     "name": "Grilled Chicken - تشيكن جريل",
     "price": "275 EGP",
     "category": "main-dish",
-    "ingredients": "Seasoned grilled chicken served with basmati rice and coleslaw salad | فراخ مشوية متبلة تقدم مع ارز بسمتي و سلطة كول سلو"
+    "ingredients": "Seasoned grilled chicken served with basmati rice | فراخ مشوية متبلة تقدم مع ارز بسمتي "
   },
       {
         "name": "Mexicano Pasta - مكرونة ميكسيكانو",
