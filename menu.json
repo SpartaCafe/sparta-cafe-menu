@@ -5,7 +5,7 @@
       { "id": "espresso", "name": "Espresso - اسبريسو" } ,
       { "id": "ice-coffee", "name": "Ice Coffee - آيس كوفي" } ,
       { "id": "frappe", "name": "Frappe - فرابتشينو" } ,
-      { "id": "smoothie", "name": "Smoothie - سموزي" } ,
+      { "id": "smoothie", "name": "Smoothie - سموزي", "image":"assets/img/menu-categories/smoothe.jpeg" } ,
       { "id": "smoothie-mix", "name": "Smoothie Mix - سموزي ميكس" } ,
       { "id": "soft-drinks", "name": "Soft Drinks - مشروبات غازية" } ,
       { "id": "fresh-juice", "name": "Fresh Juice - عصائر فريش" } ,
@@ -1200,7 +1200,8 @@
   },
       {
         "name": "Shrimp Sandwich - ساندوتش جمبري",
-        "price": "130",
+        "small_price": "130",
+    "large_price": "-",
         "category": "sandwiches",
         "ingredients": ""
       },

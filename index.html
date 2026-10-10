@@ -84,8 +84,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/sparta/12.png" alt="" data-aos="fade-in" loading="lazy">
-
+<img src="assets/img/sparta/12.png" alt="" data-aos="fade-in" fetchpriority="high">
       <div class="container hero-content">
         <div class="row">
           <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
@@ -163,15 +162,15 @@
            data-layout="masonry"
            data-sort="original-order">
     
-        <!-- Filters -->
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul class="menu-filters isotope-filters" id="menu-filters">
-              <!-- ✅ Dynamic Categories will be injected here -->
-            </ul>
-          </div>
-        </div>
-        <!-- End Menu Filters -->
+        <!-- Menu Categories -->
+<div class="row" data-aos="fade-up" data-aos-delay="100">
+  <div class="col-lg-12">
+    <div class="menu-categories" id="menu-categories">
+      <!-- Categories will be injected here -->
+    </div>
+  </div>
+</div>
+<!-- End Menu Categories -->
         
         <!-- Menu Items -->
         <div class="row isotope-container"
@@ -182,6 +181,22 @@
           <!-- ✅ Dynamic Menu Items will be injected here -->
     
         </div>
+        <!-- Category View -->
+
+<div id="category-view" class="category-view">
+
+  <div id="category-title" class="category-title"></div>
+
+  <div id="category-items"></div>
+
+  <div class="category-back-wrap">
+    <button id="back-to-categories" class="back-to-categories">
+      ← All Categories
+    </button>
+  </div>
+
+</div>
+
         <!-- End Menu Container -->
     
       </div>
@@ -224,7 +239,7 @@
       </div><!-- End Section Title -->
 
       <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-        <iframe style="border:0; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.6665492237526!2d31.242230211204763!3d30.07509121701323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584136cc9bfe95%3A0xee0a5bc6f4fe3582!2sSparta%20Cafe!5e0!3m2!1sen!2seg!4v1774651443838!5m2!1sen!2seg" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe style="border:0; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.6665492237526!2d31.242230211204763!3d30.07509121701323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584136cc9bfe95%3A0xee0a5bc6f4fe3582!2sSparta%20Cafe!5e0!3m2!1sen!2seg!4v1774651443838!5m2!1sen!2seg" frameborder="0" allowfullscreen="" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -354,8 +369,7 @@
             col.innerHTML = `
               <div class="gallery-item">
                 <a href="${item.src}" class="glightbox" data-gallery="images-gallery">
-                  <img src="${item.src}" loading="lazy" class="img-fluid" alt="">
-                </a>
+<img src="${item.src}" loading="lazy" decoding="async" class="img-fluid" alt="">                </a>
               </div>
             `;
     
@@ -386,29 +400,221 @@
       fetch('menu.json')
         .then(res => res.json())
         .then(data => {
-    
-          const filtersContainer = document.getElementById('menu-filters');
-          const menuContainer = document.getElementById('menu-container');
+              const menuContainer = document.getElementById('menu-container');
     
           // =========================
-          // ✅ 1. Render Categories
-          // =========================
-    
-          // Add "All"
-          const allBtn = document.createElement('li');
-          allBtn.textContent = "All";
-          allBtn.setAttribute('data-filter', '*');
-          allBtn.classList.add('filter-active');
-          filtersContainer.appendChild(allBtn);
-    
-          // Add dynamic categories
-          data.categories.forEach(cat => {
-            const li = document.createElement('li');
-            li.textContent = cat.name;
-            li.setAttribute('data-filter', `.filter-${cat.id}`);
-            filtersContainer.appendChild(li);
-          });
-    
+// ✅ 1. Render Menu Categories
+// =========================
+
+const categoriesContainer = document.getElementById('menu-categories');
+
+const menuCategories = [
+  {
+    name: "Coffee",
+    arabic: "قهوة",
+    categories: ["coffee"],
+    image: "assets/img/menu-categories/COFFEE.png"
+  },
+  
+{
+  name: "Espresso",
+  arabic: "إسبريسو",
+  categories: ["espresso"],
+    image: "assets/img/menu-categories/CAPPUCINO.png"
+},
+
+  {
+    name: "Hot Drinks",
+    arabic: "مشروبات ساخنة",
+    categories: ["hot-drinks"],
+    image: "assets/img/menu-categories/HOT-DRINKS.png"
+  },
+  {
+    name: "Iced Coffee",
+    arabic: "آيس كوفي",
+    categories: ["ice-coffee"],
+    image: "assets/img/menu-categories/ICED-COFFEE02.png"
+  },
+  {
+    name: "Smoothies & Shakes",
+    arabic: "سموذي وشيكس",
+    categories: ["smoothie", "smoothie-mix", "milkshake"],
+    image: "assets/img/menu-categories/SMOOTHIE.png"
+  },
+  {
+    name: "Cold Drinks",
+    arabic: "مشروبات غازية",
+    categories: ["soft-drinks"],
+    image: "assets/img/menu-categories/COLD-DRINKS.png"
+  },
+  {
+    name: "Fresh Juice & Cocktails",
+    arabic: "عصائر فريش وكوكتيلات",
+    categories: ["fresh-juice", "cocktail"],
+    image: "assets/img/menu-categories/fresh-juice.jpeg"
+  },
+  {
+    name: "Soups",
+    arabic: "الشوربات",
+    categories: ["soups"],
+    image: "assets/img/menu-categories/SOUP.png"
+  },
+  {
+    name: "Main Dishes",
+    arabic: "الأطباق الرئيسية",
+    categories: ["main-dish"],
+    image: "assets/img/menu-categories/MAIN-DISH.png"
+  },
+  {
+    name: "Pasta",
+    arabic: "مكرونة",
+    categories: ["pasta"],
+    image: "assets/img/menu-categories/PASTA.png"
+  },
+  {
+    name: "Pizza",
+    arabic: "بيتزا",
+    categories: ["pizza"],
+    image: "assets/img/menu-categories/PIZZA02.png"
+  },
+  {
+    name: "Pans",
+    arabic: "طاسات",
+    categories: ["pans"],
+    image: "assets/img/menu-categories/PAN.png"
+  },
+  {
+    name: "Crepes & Sandwiches",
+    arabic: "كريب وساندوتشات",
+    categories: ["crepe", "sandwiches"],
+    image: "assets/img/menu-categories/CREPE.png"
+  },
+  {
+    name: "Salads",
+    arabic: "سلطات",
+    categories: ["salad"],
+    image: "assets/img/menu-categories/SALADS02.png"
+  },
+  {
+    name: "Appetizers",
+    arabic: "المقبلات",
+    categories: ["appetizers"],
+    image: "assets/img/menu-categories/APPETIZER02.png"
+  },
+  {
+    name: "Desserts",
+    arabic: "حلويات",
+    categories: ["desserts", "ice-cream"],
+    image: "assets/img/menu-categories/DESSERT.png"
+  }
+];
+
+menuCategories.forEach(category => {
+
+  const card = document.createElement('div');
+
+  card.className = 'menu-category-card';
+
+
+card.innerHTML = `
+  <div class="menu-category-image">
+    <img
+      src="${category.image}"
+      alt="${category.name}"
+      loading="lazy"
+      decoding="async"
+    >
+    <div class="menu-category-overlay"></div>
+  </div>
+
+  <div class="menu-category-content">
+    <h3>${category.name}</h3>
+    <p>${category.arabic}</p>
+  </div>
+`;
+
+
+  card.addEventListener('click', () => {
+  categoriesContainer.style.display = 'none';
+  document.getElementById('menu-container').style.display = 'none';
+
+  const categoryView = document.getElementById('category-view');
+  categoryView.style.display = 'block';
+  window.scrollTo({
+  top: document.getElementById('menu').offsetTop,
+  behavior: 'smooth'
+});
+
+  document.getElementById('category-title').innerHTML = `
+    <h2>${category.name}</h2>
+    <p>${category.arabic}</p>
+  `;
+
+  const categoryItems = document.getElementById('category-items');
+  categoryItems.innerHTML = '';
+
+  data.items
+    .filter(item => category.categories.includes(item.category))
+    .forEach(item => {
+      const div = document.createElement('div');
+
+    div.className = item.category === "sandwiches"
+  ? "menu-content has-two-prices"
+  : "menu-content";
+
+      const nameParts = item.name.split(" - ");
+const englishName = nameParts[0];
+const arabicName = nameParts.slice(1).join(" - ");
+
+div.innerHTML = `
+  <div class="menu-item-name">
+    <div class="menu-item-english">${englishName}</div>
+    <div class="menu-item-arabic">${arabicName}</div>
+  </div>
+
+  
+${
+  item.category === "sandwiches"
+    ? `
+      <div class="menu-prices-wrapper">
+        <div class="menu-prices-header">
+          <span>Small</span>
+          <span>Large</span>
+        </div>
+        <div class="menu-prices">
+          <span>${item.small_price || '-'}</span>
+          <span>${item.large_price || '-'}</span>
+        </div>
+      </div>
+    `
+    : `<span>${item.price || '-'}</span>`
+}
+
+
+  ${
+    item.ingredients
+      ? `<div class="menu-ingredients">${item.ingredients}</div>`
+      : ''
+  }
+`;
+
+      categoryItems.appendChild(div);
+    });
+});
+  categoriesContainer.appendChild(card);
+
+});
+    // Back to Menu
+document.getElementById('back-to-categories').addEventListener('click', () => {
+  document.getElementById('category-view').style.display = 'none';
+  categoriesContainer.style.display = 'grid';
+  document.getElementById('menu-container').style.display = 'none';
+
+  categoriesContainer.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+});
           // =========================
           // ✅ 2. Render Menu Items
           // =========================
@@ -449,24 +655,26 @@ div.innerHTML = `
 
     <a href="#">${item.name}</a>
 
-    ${
-      item.category === "sandwiches"
-      ? `
-        <div class="menu-prices-wrapper">
- <div class="menu-prices-header"> <span>S</span> <span>L</span> </div>
-       
-
-          <div class="menu-prices">
-            <span>${item.small_price ?? '-'}</span>
-            <span>${item.large_price ?? '-'}</span>
-          </div>
-
+    
+${
+  item.category === "sandwiches"
+    ? `
+      <div class="menu-prices-wrapper">
+        <div class="menu-prices-header">
+          <span>Small</span>
+          <span>Large</span>
         </div>
-      `
-      : `
-        <span>${item.price}</span>
-      `
-    }
+        <div class="menu-prices">
+          <span>${item.small_price || '-'}</span>
+          <span>${item.large_price || '-'}</span>
+        </div>
+      </div>
+    `
+    : `
+      <span>${item.price || '-'}</span>
+    `
+}
+
 
   </div>
 
